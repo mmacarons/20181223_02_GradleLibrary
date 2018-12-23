@@ -26,8 +26,8 @@ public class MainActivity extends BaseActivity {
     @Override
     public void setValues() {
 
-        String iuProfileImageURL = "https://fimg3.pann.com/new/download.jsp?FileID=33730787";
-        Glide.with(mContext).load(iuProfileImageURL).into(profileImgView);
+        String namProfileImageURL = "https://fimg3.pann.com/new/download.jsp?FileID=33730787";
+        Glide.with(mContext).load(namProfileImageURL).into(profileImgView);
 
     }
 
